@@ -120,3 +120,5 @@ This theme code used in BorderShapes theme.
 - [**BetterDiscord Server**](https://discord.gg/0Tmfo5ZbORCRqbAd)
 
 - [**Powercord Server**](https://discord.gg/vVe4fsGFEP)
+
+- [**Vizality Server**](https://discord.gg/Fvmsfv2)
