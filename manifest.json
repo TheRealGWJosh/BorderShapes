@@ -4,7 +4,7 @@
     "author": "JayWilson",
     "description": "Custom border shapes for elements.",
     "theme": "BorderShapes.theme.css",
-	"icon": "./icon.png",
+	"icon": "icon.png",
 	"consent": "false",
     "license": "MIT"
 }
