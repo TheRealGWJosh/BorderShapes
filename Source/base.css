@@ -246,7 +246,8 @@
 #app-mount .mini-dmm9yo .grabber-3mFHz2,
 #app-mount .hue-13HAGb > div > div > div > div,
 #app-mount .saturation-1FDvtn > div > div > div > div,
-#app-mount .grabber-7sd5f5 {
+#app-mount .grabber-7sd5f5,
+#app-mount .spotify-in-discord-player-seek-bar-cursor {
    border-radius: var(--borders-slider-grabbers) !important;
 }
 #app-mount .bar-3urHkF,
@@ -335,6 +336,8 @@
 #app-mount .quickSelectPopout-X1hvgV,
 #app-mount .popout-6p6fkZ,
 #app-mount .outerWrapper-3-llkA,
+#app-mount .everyonePopout-nEbJY3,
+#app-mount .guildPopout-3CgKqR,
 #app-mount .bd-select,
 #app-mount .bd-select-transparent .bd-select-options,
 #app-mount .bf-toolbar::before,
@@ -463,7 +466,6 @@
 #app-mount .invite-18yqGF,
 #app-mount .tile-2OwFgW,
 #app-mount .placeholder-2erB-x,
-#app-mount .everyonePopout-nEbJY3,
 #app-mount .tips-2V51be,
 #app-mount .attachment-2p5mHK,
 #app-mount .upsellContainer-L9xv7w,
@@ -499,7 +501,10 @@
 #app-mount .vz-addon-card,
 #app-mount .vz-markdown-table,
 #app-mount .vz-error-boundary-block,
-#app-mount .listRow-hutiT_ {
+#app-mount .vz-updater-update,
+#app-mount .listRow-hutiT_,
+#app-mount .spotify-in-discord-modal-track,
+#app-mount .spotify-in-discord-embed-song-history-grid-row {
    border-radius: var(--borders-cards) !important;
 }
 #app-mount .sticker-2cpdZp foreignObject {
@@ -1066,12 +1071,15 @@
 #app-mount .icon-1CGepy,
 #app-mount .dot-14Jva_,
 #app-mount .circle-1nK_79,
+#app-mount .dot-14zbHU,
 #app-mount .toast-icon,
 #app-mount .bd-server-icon,
 #app-mount .bd-server-count-dot,
 #app-mount .vz-dashboard-home-cta-content-icon-wrapper.vz-icon-wrapper,
 #app-mount .vz-dashboard-home-features-icon-wrapper.vz-icon-wrapper,
+#app-mount .vz-addon-card-icon-img,
 #app-mount [vz-addon-icon] .label-22pbtT::before,
+#app-mount .vz-updater-update-icon-wrapper,
 #app-mount .ServerFolders-modal .iconSwatch-_78Ghj,
 #app-mount .coverWrapper-YAplwJ,
 #app-mount .maximizer-RVu85p {
@@ -1086,6 +1094,14 @@
 }
 #app-mount .status-1WEaea {
    box-shadow: 0 0 0 4px var(--borders-color-floating);
+   border-radius: var(--borders-icons-default);
+}
+#app-mount .vz-commands-autocomplete .listItems-1uJgMC .mask-2xtthE {
+   overflow: visible;
+}
+#app-mount .vz-commands-autocomplete .listItems-1uJgMC .mask-2xtthE foreignObject {
+   -webkit-mask: none !important;
+           mask: none !important;
    border-radius: var(--borders-icons-default);
 }
 #app-mount .container-1r6BKw {
@@ -1168,6 +1184,11 @@
    cx: calc(var(--borders-icons-default) * -0.15 + 33);
    cy: calc(var(--borders-icons-default) * -0.15 + 33);
 }
+#app-mount .screenshareIcon-Bnlgnp {
+   border-radius: var(--borders-icons-default);
+   transform: scale(1.05);
+   clip-path: inset(3% round var(--borders-icons-wide));
+}
 #app-mount .flagImage-3Wbkq4,
 #app-mount .flag-16iIBd,
 #app-mount .regionSelectFlag-3uwFtG,
@@ -1248,8 +1269,13 @@
 #app-mount .newTag-38ErDv,
 #app-mount .rem-2m9HGf.botTag-2WPJ74,
 #app-mount .px-10SIf7.botTag-2WPJ74,
+#app-mount .emojiCounter-1BHDd2,
 #app-mount .tagID {
    border-radius: var(--borders-labels-small);
+}
+#app-mount .gifTag-31zFY8 {
+   transform: scale(1.05);
+   clip-path: inset(5% 1% round var(--borders-labels-small));
 }
 #app-mount .tabButton-1n4gNP rect {
    rx: var(--borders-labels-small);
@@ -1303,8 +1329,7 @@
 #app-mount .reaction-1hd86g {
    border-radius: var(--borders-reactions);
 }
-#app-mount .markup-2BOw-j code.inline,
-#app-mount .markup-2BOw-j code,
+#app-mount code,
 #app-mount .autocompleteQuerySymbol-1kyGZ5,
 #app-mount #bd-customcss-attach-controls .help-text .inline,
 #app-mount .vz-markdown-code-inline {
@@ -1357,7 +1382,9 @@ bd-body .bd-toast,
 #app-mount .powercord-toast,
 #app-mount .powercord-toast .header,
 #app-mount .small-1CUeBa,
-#app-mount .vz-toast {
+#app-mount .vz-toast,
+#app-mount .xenoLib-notification-content,
+#app-mount .xenoLib-notification-loadbar {
    border-radius: var(--borders-toasts);
 }
 #app-mount .monaco-editor,
