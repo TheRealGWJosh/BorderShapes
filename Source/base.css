@@ -66,7 +66,7 @@
 #app-mount .actionsVoiceChannel-2Wte99 .buttonSize-2Pmk-w,
 #app-mount .listeningActionsUserPopout-Ga2V_N .buttonSize-2Pmk-w,
 #app-mount .listeningActionsVoiceChannel-1edvLq .buttonSize-2Pmk-w,
-#app-mount .button-2DhvE9,
+body .button-2DhvE9,
 #app-mount .button-3Ijpww,
 #app-mount .button-2PWmas,
 #app-mount .wrapper-2aW0bm,
@@ -128,17 +128,16 @@
 #app-mount .streamerModeEnabledBtn-2ZJ2eq,
 #app-mount .selectGuild-1Ygl76,
 #app-mount .exampleRule-32tIs5,
-#app-mount #bd-editor-controls button,
-#app-mount .channelTabs-selected,
 #app-mount .bd-button,
-#app-mount #bd-pub-button,
 #app-mount .bd-addon-list .bd-card-footer button,
+#app-mount #bd-editor-controls button,
+#app-mount #bd-pub-button,
 #app-mount #bd-settings-sidebar .ui-tab-bar-item,
 #app-mount #bd-settingspane-container .bd-pfbtn,
-#app-mount #bd-editor-controls button,
 #app-mount .vz-dashboard-sidebar-auxillary-icon-wrapper,
 #app-mount .vz-docs-components-icons-icon-wrapper,
 #app-mount .vz-aside-nav-collapser,
+#app-mount .channelTabs-selected,
 #app-mount .replyer,
 #app-mount .styledGuildsAsChannels-DNHtg_ .wrapper-1Rf91z .wrapper-1BJsBx,
 #app-mount .styledGuildsAsChannels-DNHtg_ .wrapper-1Rf91z .circleIconButton-jET_ig,
@@ -526,9 +525,9 @@
    border-radius: var(--borders-cards) var(--borders-cards) 0 0 !important;
    transition: 0.1s ease-out;
 }
-#app-mount .tierBody-x9kBBp,
+#app-mount .tier#app-mount-x9kBBp,
 #app-mount .popout-VcNcHB,
-#app-mount .tierBody-16Chc9,
+#app-mount .tier#app-mount-16Chc9,
 #app-mount .css-1ye7vu0,
 #app-mount .css-ix84ef-menu,
 #app-mount .css-3vaxre-menu,
@@ -1348,7 +1347,10 @@
    border-radius: var(--borders-replies) 0 0 0;
 }
 #app-mount .blockquoteDivider-2hH8H6 {
-   border-radius: var(--border-radius-embed) 0 0 var(--border-radius-embed);
+   border-radius: var(--borders-quotes) 0 0 var(--borders-quotes);
+}
+#app-mount .scrollableContainer-2NUZem .blockquoteDivider-2hH8H6 {
+   border-radius: var(--borders-quotes);
 }
 #app-mount .spoilerText-3p6IlD {
    border-radius: var(--borders-spoilers);
@@ -1359,6 +1361,7 @@
 /*------------------------------------*/
 
 #app-mount .tooltip-2QfLtc,
+body .tooltip-2QfLtc,
 #app-mount .subscribeTooltipWrapper-1JoUuw,
 #app-mount .tooltip-1_vJJI {
    border-radius: var(--borders-tooltips);
@@ -1377,7 +1380,7 @@
    border-radius: var(--borders-navigation-highlight);
 }
 #app-mount .toast,
-bd-body .bd-toast,
+body .bd-toast,
 #app-mount .toast-g4bfgI,
 #app-mount .powercord-toast,
 #app-mount .powercord-toast .header,
@@ -1394,7 +1397,7 @@ bd-body .bd-toast,
 #app-mount #bd-editor-controls {
    border-radius: var(--borders-code-editors) var(--borders-code-editors) 0 0;
 }
-bd-body .floating-window,
+body .floating-window,
 #app-mount .powercord-quickcss,
 #app-mount .powercord-quickcss-editor-settings {
    border-radius: var(--borders-code-editors);
