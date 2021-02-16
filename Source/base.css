@@ -1341,7 +1341,7 @@ body .button-2DhvE9,
    border-radius: 0 var(--borders-codes) var(--borders-codes) 0;
 }
 #app-mount .embedFull-2tM8-- {
-   border-radius: calc(var(--borders-embeds) / 6) var(--borders-embeds) var(--borders-embeds) calc(var(--borders-embeds) / 6);
+   border-radius: var(--borders-embeds);
 }
 #app-mount .repliedMessage-VokQwo::before {
    border-radius: var(--borders-replies) 0 0 0;
