@@ -78,6 +78,7 @@ body .button-2DhvE9,
 #app-mount .diversityEmojiItem-L6_IXw,
 #app-mount .emojiItem-14v6tW.emojiItemSelected-1aLkfV,
 #app-mount .gif-1TcNIB,
+#app-mount .spoilerWarning-2aAZq1,
 #app-mount .categoryFade-2ybR1J,
 #app-mount .categoryFadeBlurple-1j72_A,
 #app-mount .react-datepicker__navigation.react-datepicker__navigation--next,
@@ -1224,17 +1225,25 @@ body .button-2DhvE9,
    border-radius: var(--borders-labels-large) !important;
 }
 #app-mount .lowerBadge-29hYVK .base-PmTxvP,
-#app-mount .upperBadge-2XnnGB .base-PmTxvP {
+#app-mount .upperBadge-2XnnGB .base-PmTxvP,
+#app-mount .upperLeftBadge-e35IpL .base-PmTxvP {
    box-shadow: 0 0 0 4px var(--borders-color-tertiary);
    border-radius: var(--borders-labels-large);
 }
 #app-mount [role="group"] .lowerBadge-29hYVK .base-PmTxvP {
    box-shadow: 0 0 0 4px var(--borders-color-secondary);
    clip-path: inset(-100% 0 0 -100%);
+   border-radius: var(--borders-labels-large);
 }
 #app-mount [role="group"] .upperBadge-2XnnGB .base-PmTxvP {
    box-shadow: 0 0 0 4px var(--borders-color-secondary);
    clip-path: inset(-100% 0 -100% -100%);
+   border-radius: var(--borders-labels-large);
+}
+#app-mount [role="group"] .unread-badge .base-PmTxvP {
+   box-shadow: 0 0 0 4px var(--borders-color-secondary);
+   clip-path: inset(-100% -100% 0 0);
+   border-radius: var(--borders-labels-large);
 }
 #app-mount .moreUsers-7v8yWY {
    box-shadow: 0 0 0 4px var(--borders-color-floating);
