@@ -10,7 +10,7 @@ Custom border shapes for elements.
 - Root variables for more customization.
 - Most Discord elements border shapes can be changed.
 - New modern style for user statuses.
-- BetterDiscord, Powercord and Vizality support.
+- BetterDiscord, Powercord, Vizality and Stylus support.
 
 # Previews
 
@@ -46,12 +46,9 @@ There is more customizable elements borders in theme. Check it out!
 **On web version (with Stylus):**
 
 1. Download Stylus extension for your browser.
-2. Open Discord in your browser.
-3. Click on Stylus icon and create new style for [discord.com](https://discord.com) page.
-4. Find `BorderShapes.theme.css` file in this repository and open it.
-5. Copy all content from this file.
-6. Paste all content to Stylus workspace.
-7. Save changes.
+-  **[Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)** **[Firefox](https://addons.mozilla.org/fr/firefox/addon/styl-us/)** 
+2. After Installing Stylus Click The Install Button Down Below
+-  **[Install](https://github.com/TheRealGWJosh/BorderShapes/raw/master/BorderShapes.user.styl)** With Stylus
 
 # Customization
 
