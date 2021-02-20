@@ -1,0 +1,152 @@
+/* ==UserStyle==
+@name           BorderShapes
+@namespace      https://github.com/JayWilson7
+@version        1.0.0
+@license        MIT
+@description    Custom border shapes for elements. - Discord Invite > jcDvkVk - Stylus Port Made By TheRealGWJosh
+@homepageURL    https://github.com/JayWilson7/BorderShapes
+@supportURL     https://github.com/JayWilson7/BorderShapes/issues
+@author         JayWilson
+@preprocessor   uso
+@var text bbuttons-r "Borders Buttons Rounded" 0px
+@var text bbuttons-c "Borders Buttons Circle" 0px
+@var text bswitches "Borders Switches" 0px
+@var text bcheckboxes "Borders Checkboxes" 0%
+@var text bslider-b "Borders Slider Bars" 0px
+@var text bslider-g "Borders Slider Grabbers" 0px
+@var text bprogress-b "Borders Progress Bars" 0px
+@var text binputs "Borders Inputs" 0px
+@var text bcontexts "Borders Contexts" 0px
+@var text bpopouts "Borders Popouts" 0px
+@var text bmodals "Borders Modals" 0px
+@var text bcards "Borders Cards" 0px
+@var text bmedia "Borders Media" 0px
+@var text bpreviews "Borders Previews" 0px
+@var text bserver-d "Borders Servers Default" 0%
+@var text bserver-i "Borders Servers Interactive" 0%
+@var text bfolders "Borders Folders" 0px
+@var text bavatars "Borders Avatars" 0%
+@var text bicons-d "Borders Icons Default" 0%
+@var text bicons-w "Borders Icons Wide" 0px
+@var text blabels-l "Borders Labels Large" 0px
+@var text blabels-s "Borders Labels Small" 0px
+@var text bpills "Borders Pills" 0px
+@var text blines "Borders Lines" 0px
+@var text brole-o "Borders Role Outlines" 0px
+@var text brole-d "Borders Role Dots" 0px
+@var text bmessages "Borders Messages" 0px
+@var text bpings "Borders Mentions" 0px
+@var text breactions "Borders Reactions" 0px
+@var text bcodes "Borders Codes" 0px
+@var text bembeds "Borders Embeds" 0px
+@var text breplies "Borders Replies" 0px
+@var text bquotes "Borders Quotes" 0px
+@var text bspoilers "Borders Spoilers" 0px
+@var text btooltips "Borders Tooltips" 0px
+@var text bscrollbars "Borders Scrollbars" 0px
+@var text bs-a-n "Borders Sidebar and Notices" 0px
+@var text bn-h "Borders Navigation Highlight" 0px
+@var text btoasts "Borders Toasts" 0px
+@var text beditors "Borders Code Editors" 0px
+==/UserStyle== */
+@-moz-document domain("discord.com") {
+
+	       /*------------------------------*/
+	      /*-----<Source Code Import>-----*/
+     	 /*------------------------------*/
+
+	     @import url(https://jaywilson7.github.io/BorderShapes/Source/base.css);
+
+	  /*---------------------------*/
+	 /*-----<Basic Variables>-----*/
+	/*---------------------------*/
+
+	:root {
+		--borders-buttons-rounded: /*[[bbuttons-r]]*/;
+		/*Border shapes for rounded buttons. 25px for circle, 0px for square*/
+		--borders-buttons-circle: /*[[bbuttons-c]]*/;
+		/*Border shapes for circle buttons. 25px for circle, 0px for square*/
+		--borders-switches: /*[[bswitches]]*/;
+		/*Border shapes for switches. 15px for circle, 0px for square*/
+		--borders-checkboxes: /*[[bcheckboxes]]*/;
+		/*Border shapes for checkboxes. 50% for circle, 0% for square*/
+		--borders-slider-bars: /*[[bslider-b]]*/;
+		/*Border shapes for slider bars. 5px for circle, 0px for square*/
+		--borders-slider-grabbers: /*[[bslider-g]]*/;
+		/*Border shapes for slider grabbers. 8px for circle, 0px for square*/
+		--borders-progress-bars: /*[[bprogress-b]]*/;
+		/*Border shapes for progress bars. 5px for circle, 0px for square*/
+		--borders-inputs: /*[[binputs]]*/;
+		/*Border shapes for inputs. 25px for circle, 0px for square*/
+		--borders-contexts: /*[[bcontexts]]*/;
+		/*Border shapes for context menus. 25px for circle, 0px for square*/
+		--borders-popouts: /*[[bpopouts]]*/;
+		/*Border shapes for popouts. 25px for circle, 0px for square*/
+		--borders-modals: /*[[bmodals]]*/;
+		/*Border shapes for modals. 25px for circle, 0px for square*/
+		--borders-cards: /*[[bcards]]*/;
+		/*Border shapes fards. 25;px for circle, 0px for square*/
+		--borders-media: /*[[bmedia]]*/;
+		/*Border shapes for images, videos, audios and gifs. 25px for circle, 0px for square*/
+		--borders-previews: /*[[bpreviews]]*/;
+		/*Border shapes for previews. 25px for circle, 0px for square*/
+		--borders-servers-default: /*[[bserver-d]]*/;
+		/*Border shapes for server icons and circle buttons on server side. 50% for circle, 0% for square*/
+		--borders-servers-interactive: /*[[bserver-i]]*/;
+		/*Border shapes for hovered or selected elements mentioned in previous description. 50% for circle, 0% for square*/
+		--borders-folders: /*[[bfolders]]*/;
+		/*Border shapes for server folders. 35px for circle, 0px for square*/
+		--borders-avatars: /*[[bavatars]]*/;
+		/*Border shapes for avatars. 50% for circle, 0% for square*/
+		--borders-icons-default: /*[[bicons-d]]*/;
+		/*Border shapes for icons that have width equal height. 50% for circle, 0% for square*/
+		--borders-icons-wide: /*[[bicons-w]]*/;
+		/*Border shapes for icons that have more width than height. 5px for circle, 0px for square*/
+		--borders-labels-large: /*[[blabels-l]]*/;
+		/*Border shapes for large text and number indicators. 15px for circle, 0px for square*/
+		--borders-labels-small: /*[[blabels-s]]*/;
+		/*Border shapes for small text and number indicators. 10px for circle, 0px for square*/
+		--borders-pills: /*[[bpills]]*/;
+		/*Border shapes for unread badges and selected server pills. 5px for circle, 0px for square*/
+		--borders-lines: /*[[blines]]*/;
+		/*Border shapes for lines when you drag categories or channels. 2px for circle, 0px for square*/
+		--borders-role-outlines: /*[[brole-o]]*/;
+		/*Border shapes for roles outlines. 10px for circle, 0px for square*/
+		--borders-role-dots: /*[[brole-d]]*/;
+		/*Border shapes for roles dots. 10px for circle, 0px for square*/
+		--borders-messages: /*[[bmessages]]*/;
+		/*Border shapes for hovered or highlighted messages. 25px for circle, 0px for square*/
+		--borders-mentions: /*[[bpings]]*/;
+		/*Border shapes for mentions. 10px for circle, 0px for square*/
+		--borders-reactions: /*[[breactions]]*/;
+		/*Border shapes for reactions. 10px for circle, 0px for square*/
+		--borders-codes: /*[[bcodes]]*/;
+		/*Border shapes for codes and codeblocks. 10px for circle, 0px for square*/
+		--borders-embeds: /*[[bembeds]]*/;
+		/*Border shapes for embeds. 25px for circle, 0px for square*/
+		--borders-replies: /*[[breplies]]*/;
+		/*Shape for top left replies border. 15px for circle, 0px for square*/
+		--borders-quotes: /*[[bquotes]]*/;
+		/*Border shapes for quote icon. 2px for circle, 0px for square*/
+		--borders-spoilers: /*[[bspoilers]]*/;
+		/*Border shapes for spoilers. 10px for circle, 0px for square*/
+		--borders-tooltips: /*[[btooltips]]*/;
+		/*Border shapes for tooltips. 25px for circle, 0px for square*/
+		--borders-scrollbars: /*[[bscrollbars]]*/;
+		/*Border shapes for scrollbars. 10px for circle, 0px for square*/
+		--borders-sidebar-and-notices: /*[[bs-a-n]]*/;
+		/*Shape for top left sidebar and notices border. 25px for circle, 0px for square*/
+		--borders-navigation-highlight: /*[[bn-h]]*/;
+		/*Border shapes for navigation highlight when you press TAB. 25px for circle, 0px for square*/
+		--borders-toasts: /*[[btoasts]]*/;
+		/*Border shapes for toasts. 25px for circle, 0px for square*/
+		--borders-code-editors: /*[[beditors]]*/;
+		/*Border shapes for code editors workspace. 10px for circle, 0px for square*/
+
+		  /*--------------------------*/
+		 /*-----<Root Variables>-----*/
+		/*--------------------------*/
+
+	  /*You can find root variables here: https://github.com/JayWilson7/BorderShapes/blob/master/Source/base.css */
+	}
+}
