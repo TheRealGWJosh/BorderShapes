@@ -1308,7 +1308,9 @@ body .button-2DhvE9,
 #app-mount .containerDragAfter-3Fp7LC::after,
 #app-mount .containerDragBefore-3iTCc7::before,
 #app-mount .containerDragAfter-Zk9oyx::before,
-#app-mount .containerDragBefore-1YqewQ::before {
+#app-mount .containerDragBefore-1YqewQ::before,
+#app-mount .containerDragAfter-1PIDLd:after,
+#app-mount .containerDragBefore-s8CG6h:before {
    border-radius: var(--borders-lines);
 }
 
